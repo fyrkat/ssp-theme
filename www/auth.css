@@ -1,0 +1,51 @@
+body {
+	background: #fafafa;
+}
+#loginform {
+	text-align: center;
+	/* background: #f8f8f8; */
+	margin: 0 auto;
+	width: 24em;
+	padding: 2em 0 0 0;
+}
+#loginform h1 {
+    background: url('fyrkat.svg') no-repeat 0 0;
+    background-size: fill;
+    padding-top: 18em;
+    font-size: 1em;
+    color: gray;
+
+	width: 18em;
+	margin: 1em auto;
+}
+
+
+form .inputstack input {
+	display: block;
+	padding: .6rem;
+	margin: 0 auto;
+	font-size: 1.1em;
+}
+
+form .inputstack p {
+	margin: 0;
+	padding: 0;
+}
+form .inputstack p input {
+	border: .1em solid #aaa;
+	border-top: none;
+	width: 12.8rem;
+}
+form .inputstack p:first-child input {
+	border-top: .1em solid #aaa;
+	border-radius: .3em .3em 0 0;
+	box-shadow: inset #eee 0 2px 0;
+}
+form .inputstack p:last-child input {
+	border-radius: 0 0 .3em .3em;
+}
+#loginform input[type=submit] {
+	width: 14rem;
+	display: block;
+	margin: 0 auto;
+}
