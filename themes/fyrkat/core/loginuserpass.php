@@ -25,11 +25,11 @@ if (strlen($this->data['username']) > 0) {
 			if (!$this->data['username']) {
 				echo ' autofocus';
 			}
-		} ?> value="<?php echo htmlspecialchars($this->data['username']); ?>" onkeyup="setSubmit()">
+		} ?> value="<?php echo htmlspecialchars($this->data['username']); ?>" oninput="setSubmit()">
 		<p><input id="password" type="password" tabindex="2" name="password" placeholder="<?php echo $this->t('{login:password}'); ?>" required
 		<?php if ($this->data['username']) {
 			echo ' autofocus';
-		} ?> onkeyup="setSubmit()">
+		} ?> oninput="setSubmit()">
 	</div>
 	<?php
 	if ($this->data['rememberMeEnabled']) {
