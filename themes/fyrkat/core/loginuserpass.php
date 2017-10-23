@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <title><?php echo $this->t('{login:user_pass_header}'); ?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/normalize.css'); ?>" type="text/css">
 <link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/fyrkat.css'); ?>" type="text/css">
 <link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/auth.css'); ?>" type="text/css">
