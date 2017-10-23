@@ -37,7 +37,7 @@ if (strlen($this->data['username']) > 0) {
 	?>
 	<p><input type="checkbox" id="remember_me" tabindex="5"
 		<?php echo ($this->data['rememberMeChecked']) ? 'checked="checked"' : ''; ?>
-		   name="remember_me" value="Yes"/>
+			name="remember_me" value="Yes"/>
 	<small><?php echo $this->t('{login:remember_me}'); ?></small>
 <?php
 }
@@ -47,8 +47,8 @@ if ($this->data['rememberUsernameEnabled'] && !$this->data['forceUsername']) {
 	// display the "remember my username" checkbox
 ?>
 	<p><input type="checkbox" id="remember_username" tabindex="4"
-	   <?php echo ($this->data['rememberUsernameChecked']) ? 'checked="checked"' : ''; ?>
-	   name="remember_username" value="Yes"/>
+		<?php echo ($this->data['rememberUsernameChecked']) ? 'checked="checked"' : ''; ?>
+		name="remember_username" value="Yes"/>
 	<small><?php echo $this->t('{login:remember_username}'); ?></small>
 <?php
 }
