@@ -35,6 +35,7 @@ form .inputstack p input {
 	border: .1em solid #aaa;
 	border-top: none;
 	width: 12.8rem;
+	outline: none;
 }
 form .inputstack p:first-child input {
 	border-top: .1em solid #aaa;
@@ -48,4 +49,5 @@ form .inputstack p:last-child input {
 	width: 14rem;
 	display: block;
 	margin: 0 auto;
+	outline: none;
 }
